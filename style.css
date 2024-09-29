@@ -1,3 +1,75 @@
 :root{
-    
+    --header-color: #012D63;
+    --text-color-header1: #FFFFFF;
+    --text-color-header2: #C7C7C7;
+    --text-color-language: #DCDCDC;
+    --btn-color: #8E32C6;
+    --text-color-withusfrom-date: #D8D8D8;
+    --text-form-color: #959595;
+    --footer-color: #021635;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h1, h2, h3, h4, p, ul, li, img, a{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1108px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    border: 1px solid red;
+}
+
+body{
+    color: ;
+    background-color: var(--header-color);
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 1.17;
+    font-size: 24px;
+}
+
+.header{
+background-color: ;
+}
+
+.header-logo{
+
+}
+
+.navigation{
+
+}
+
+.header-list{
+
+}
+
+.header-item{
+
+}
+
+.header-link{
+    color: var(--text-color-header2);
+}
+
+.confirm{
+
+}
+
+.form{
+background-image: url();
 }
