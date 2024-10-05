@@ -7,6 +7,7 @@
     --text-color-withusfrom-date: #D8D8D8;
     --text-form-color: #959595;
     --footer-color: #021635;
+    --confirm-color: #8D8D8D;
 }
 
 *{
@@ -34,28 +35,38 @@ h1, h2, h3, h4, p, ul, li, img, a{
 }
 
 body{
-    color: ;
     background-color: var(--header-color);
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     line-height: 1.17;
     font-size: 24px;
 }
 
 .header{
-background-color: ;
+background-color: var(--header-color);
+}
+
+.header-wrap{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
 }
 
 .header-logo{
-
+   
+     
 }
 
 .navigation{
-
+    display: flex;
+    font-family: "Roboto", sans-serif;
 }
 
 .header-list{
-
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    margin-right: 73px;  
 }
 
 .header-item{
@@ -63,13 +74,270 @@ background-color: ;
 }
 
 .header-link{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
     color: var(--text-color-header2);
 }
 
-.confirm{
+.header-list-language{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
 
+}
+
+.main{
+
+}
+
+.hero{
+   
+    background-image: url(./img/sneaker\ with\ background.png);
+}
+
+.logo-hero{
+    
+}
+
+.logo-title{
+    
+    font-size: 48px;
+    font-family: "PT Serif", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.main-title{
+    font-size: 144px;
+    font-family: "Playfair Display", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.title3{
+    font-size: 72px;
+    font-family: "Playfair Display", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.text{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.btnhero{
+    display: block;
+    padding: 20px 61px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-header1);
+    background-color: var(--btn-color);
+}
+
+.advantages{
+    background-image: url(./img/advantages\ backround.png);
+}
+
+.advantages-list{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.advantages-item{
+
+}
+
+.advantages-title{
+    font-size: 36px;
+    font-family: "Playfair Display", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.advantages-img{
+
+}
+
+.reviews{
+    background-image: url(./img/reviews\ backround\ \(2\).png);
+}
+
+.reviews-title{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-family: "Playfair Display", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.reviews-list{
+   display: flex;
+   align-items: center;
+}
+
+.reviews-item{
+   margin-top: 114px;
+   margin-bottom: 114px;
+   
+}
+
+.reviews-item1{
+   
+}
+
+.reviews-item2{
+    
+}
+
+.reviews-item3{
+    
+}
+
+.reviews-text{
+    padding: 49px 14px 130px 14px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.reviews-text1{
+    
+    background-image: url(./img/blue\ reviews.png);
+}
+
+.reviews-text2{
+    
+    background-image: url(./img/pink\ reviews.png);
+}
+
+.reviews-text3{
+    
+    background-image: url(./img/orange\ reviews.png);
+}
+
+.reviews-date{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-withusfrom-date);
+}
+
+
+
+
+.reviews-img{
+
+}
+
+
+
+.reviews-name{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-header1);
+}
+
+
+
+.reviews-withusfrom{
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-withusfrom-date);
+}
+
+
+
+.order{
+   background-image: url(./img/order\ backround.png);
+}
+
+.order-title{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-family: "Playfair Display", sans-serif;
+    color: var(--text-color-header1);
 }
 
 .form{
-background-image: url();
+    
 }
+
+.label-form{
+
+}
+
+.input-form{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-form-color);
+}
+
+.email{
+    font-size: 28px;
+}
+
+
+.confirm{
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    color: var(--confirm-color);
+}
+
+.btnorder{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.footer{
+
+}
+
+.footer-list{
+
+}
+
+.footer-item{
+
+}
+
+.footer-title4{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.footer-list-email{
+    
+}
+
+.footer-item-email{
+
+}
+
+.footer-link-email{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.footer-text{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color-header1);
+}
+
+.footer-logo{
+
+}
+
+.footer-logo-title{
+    font-size: 24px;
+    font-family: "PT Serif", sans-serif;
+    color: var(--text-color-header1);
+}
+
+
+

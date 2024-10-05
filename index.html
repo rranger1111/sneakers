@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="header">
-     <div class="container">
+     <div class="container header-wrap">
         <a class="header-logo" href="./index.html">
             <img src="./img/logo nike.png" alt="logo nike">
         </a>
@@ -35,12 +35,15 @@
                   <li class="header-item">
                     <a class="header-link" href="#">Order</a>
                 </li>
-                <li class="header-item">
-                    <a class="header-link" href="#">Ua</a>
-                </li>
-                <li class="header-item">
-                    <a class="header-link" href="#">Eng</a>
-                </li>
+                <ul class="header-list-language">
+                    <li class="header-item">
+                        <a class="header-link" href="#">Ua</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="#">Eng</a>
+                    </li>
+                </ul>
+                
             </ul>
      </nav>
      </div>
@@ -56,7 +59,7 @@
         <h1 class="main-title">ColoRawe</h1>
         <h3 class="title3">Your dream Nike</h3>
         <p class="text">On this site you can find custom Nike sneakers of your dreams. 
-            The original company caт`t create such beautiful 
+            The original company can`t create such beautiful 
             sneakers as we do.
             Good luck finding your way in the world of custom sneakers.
         </p>
@@ -91,34 +94,34 @@
             <div class="container">
                 <h2 class="reviews-title">Reviews</h2>
                 <ul class="reviews-list">
-                    <li class="reviews-item">
-                        <p class="reviews-text">Sneakers are very 
+                    <li class="reviews-item reviews-item1">
+                        <p class="reviews-text reviews-text1 ">Sneakers are very 
                             comfortable and well 
                             painted, nothing has 
                             worn off in a year.
                         </p>
-                            <p class="reviews-date">25.11</p>
-                            <img class="reviews-img" src="./img/John Teylor.png" alt="John Teylor">
-                            <h3 class="reviews-name">John Teylor</h3>
-                            <p class="reviews-withusfrom">With us from 2018</p>
+                            <p class="reviews-date reviews-date1">25.11</p>
+                            <img class="reviews-img reviews-img1" src="./img/John Teylor.png" alt="John Teylor">
+                            <h3 class="reviews-name reviews-name1">John Teylor</h3>
+                            <p class="reviews-withusfrom reviews-withusfrom1">With us from 2018</p>
                     </li>
-                    <li class="reviews-item">
-                        <p class="reviews-text">I'm very happy with this color scheme.
+                    <li class="reviews-item reviews-item2">
+                        <p class="reviews-text reviews-text2">I'm very happy with this color scheme.
                             They match all my clothes.
                         </p>
-                            <p class="reviews-date">05.01</p> 
-                            <img class="reviews-img" src="./img/Elizabeth Garsia.png" alt="Elizabeth Garsia">  
-                            <h3 class="reviews-name">Elizabeth Garsia</h3>
-                            <p class="reviews-withusfrom">With us from 2020</p>               
+                            <p class="reviews-date reviews-date2">05.01</p> 
+                            <img class="reviews-img reviews-img2" src="./img/Elizabeth Garsia.png" alt="Elizabeth Garsia">  
+                            <h3 class="reviews-name reviews-name2">Elizabeth Garsia</h3>
+                            <p class="reviews-withusfrom reviews-withusfrom2">With us from 2020</p>               
                     </li>
-                    <li class="reviews-item">
-                        <p class="reviews-text">Just right if you need to go to a party.
+                    <li class="reviews-item reviews-item3">
+                        <p class="reviews-text reviews-text3">Just right if you need to go to a party.
                             I use them actively, the paint is super.
                         </p>
-                            <p class="reviews-date">18.06</p>
-                            <img class="reviews-img" src="./img/Tom Maquare.png" alt="Tom Maquare">
-                            <h3 class="reviews-name">Tom Maquare</h3>
-                            <p class="reviews-withusfrom">With us from 2019</p>
+                            <p class="reviews-date reviews-date3">18.06</p>
+                            <img class="reviews-img reviews-img3" src="./img/Tom Maquare.png" alt="Tom Maquare">
+                            <h3 class="reviews-name reviews-name3">Tom Maquare</h3>
+                            <p class="reviews-withusfrom reviews-withusfrom3">With us from 2019</p>
                     </li>
                 </ul>
             </div>
@@ -128,9 +131,9 @@
                 <h2 class="order-title">Order</h2>
                 <form class="form" action="">
                     <label class="label-form">
-                        <input class="input-form" name="email" type="email"  placeholder="Write your email" required>
+                        <input class="input-form email" name="email" type="email"  placeholder="Write your email" required>
                     </label>
-                    <button class="confirm" type="button"></button>
+                    <button class="confirm" type="button">Confirm</button>
                     <label class="label-form">
                         <input class="input-form" name="country" type="country" placeholder="Your country">
                     </label>
@@ -174,7 +177,9 @@
         <div class="container">
             <p class="footer-text">2022 ColoRawe @All rights reserved</p>
             <p class="footer-text">United States</p>
-            <a class="footer-logo" href="./img/logo nike.png"></a>
+            <a class="footer-logo" href="#">
+                <img src="./img/logo nike.png" alt="logo nike">
+            </a>
             <h3 class="footer-logo-title">C&R</h3>
         </div>
     </footer>
