@@ -31,7 +31,7 @@ h1, h2, h3, h4, p, ul, li, img, a{
     width: 1108px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    border: 1px solid red;
+    
 }
 
 body{
@@ -94,7 +94,8 @@ background-color: var(--header-color);
 }
 
 .hero{
-   
+   background-position: center;
+   background-repeat: no-repeat;
     background-image: url(./img/sneaker\ with\ background.png);
 }
 
@@ -104,24 +105,28 @@ background-color: var(--header-color);
 
 .logo-title{
     
+    margin-bottom: 60px;
     font-size: 48px;
     font-family: "PT Serif", sans-serif;
     color: var(--text-color-header1);
 }
 
 .main-title{
+    
     font-size: 144px;
     font-family: "Playfair Display", sans-serif;
     color: var(--text-color-header1);
 }
 
 .title3{
+    margin-bottom: 24px;
     font-size: 72px;
     font-family: "Playfair Display", sans-serif;
     color: var(--text-color-header1);
 }
 
 .text{
+    margin-bottom: 41px;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     color: var(--text-color-header1);
@@ -137,6 +142,8 @@ background-color: var(--header-color);
 }
 
 .advantages{
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url(./img/advantages\ backround.png);
 }
 
@@ -161,6 +168,8 @@ background-color: var(--header-color);
 }
 
 .reviews{
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url(./img/reviews\ backround\ \(2\).png);
 }
 
@@ -249,6 +258,8 @@ background-color: var(--header-color);
 
 
 .order{
+   background-position: center;
+   background-repeat: no-repeat;
    background-image: url(./img/order\ backround.png);
 }
 
@@ -275,6 +286,7 @@ background-color: var(--header-color);
 }
 
 .email{
+    margin-top: 33px;
     font-size: 28px;
 }
 
@@ -304,6 +316,9 @@ background-color: var(--header-color);
 }
 
 .footer-title4{
+    display: flex;
+    justify-content: start;
+    margin-top: 45px;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     color: var(--text-color-header1);
@@ -318,22 +333,29 @@ background-color: var(--header-color);
 }
 
 .footer-link-email{
+    display: flex;
+    justify-content: right;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     color: var(--text-color-header1);
 }
 
 .footer-text{
+    display: flex;
+    justify-content: start;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     color: var(--text-color-header1);
 }
 
 .footer-logo{
-
+     display: flex;
+     justify-content: end;
 }
 
 .footer-logo-title{
+    display: flex;
+    justify-content: end;
     font-size: 24px;
     font-family: "PT Serif", sans-serif;
     color: var(--text-color-header1);
