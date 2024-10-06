@@ -280,6 +280,9 @@ background-color: var(--header-color);
 }
 
 .input-form{
+    display: flex;
+    justify-content: center;
+    gap: 19px;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     color: var(--text-form-color);
@@ -298,6 +301,10 @@ background-color: var(--header-color);
 }
 
 .btnorder{
+    display: flex;
+    justify-content: center;
+    background-color: var(--btn-color);
+    padding: 20px 48px 20px 48px;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     color: var(--text-color-header1);
